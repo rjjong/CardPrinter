@@ -5,7 +5,7 @@ using Newtonsoft.Json.Linq;
 using NLog;
 using System.Collections.Concurrent;
 
-namespace CardPinter.PersistanceLayer.Helpers
+namespace CardPrinter.PersistanceLayer
 {
     public static class CardDeserializer
     {

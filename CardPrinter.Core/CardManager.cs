@@ -1,6 +1,7 @@
 ﻿using CardPinter.Database.Models;
 using CardPinter.DLogger;
 using CardPinter.PersistanceLayer.Helpers;
+using CardPrinter.PersistanceLayer;
 using NLog;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Formats.Png;

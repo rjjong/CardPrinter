@@ -2,12 +2,12 @@
 using CardPinter.Database.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CardPinter.PersistanceLayer.Helpers
+namespace CardPrinter.PersistanceLayer
 {
     public class CardRepository : LocalRepositoryBase
     {
         public CardRepository() : base()
-        { 
+        {
 
         }
 
