@@ -1,5 +1,7 @@
 ﻿using CardPinter.Core;
+using CardPinter.DLogger;
 using CardPinter.PersistanceLayer.Helpers;
+using NLog;
 using SixLabors.ImageSharp;
 
 namespace CardPinter.TestApp;
@@ -22,6 +24,7 @@ public class Menu
                             foreach (var card in cards)
                             {
                                 Console.WriteLine(string.Format("Id: {0,-8} | Name: {1, -40} | Type: {2}", card.Id, card.Name, string.Join(", ", card.CardDetails.Select(c => c.CardType))));
+                                Log.TraceLine(LogLevel.Debug, string.Format("Id: {0,-8} | Name: {1, -40} | Type: {2}", card.Id, card.Name, string.Join(", ", card.CardDetails.Select(c => c.CardType))));
                             }
                         }
                         else
@@ -37,6 +40,7 @@ public class Menu
                         {
                             var card = await cardRepository.GetRandomCardAsync();
                             Console.WriteLine(string.Format("{0}, {1}", card.Name, card.CardImages?.FirstOrDefault()?.ImageUri));
+                            Log.TraceLine(LogLevel.Debug, "Random card: " + card.Name);
                         }
                         Console.ReadKey();
                     }
@@ -52,6 +56,7 @@ public class Menu
                             Console.WriteLine("Importing card data...");
                             await CardManager.ImportCardsAsync(path);
                             Console.WriteLine("Import complete.");
+                            Log.TraceLine(LogLevel.Debug, "Database was recreated.");
                         }
                         else
                         {
@@ -74,6 +79,7 @@ public class Menu
                             byte[] image = await CardManager.DownloadImageAsync(cardImage.ImageUri);
                             await CardManager.SaveAsGrayscaleAsync(image, path);
                             Console.WriteLine("Image saved successfully.");
+                            Log.TraceLine(LogLevel.Debug, "Image saved successfully.");
                         }
                         else
                         {
@@ -119,7 +125,7 @@ public class Menu
     private static ConsoleKey MenuOptions()
     {
         Console.Clear();
-        Console.WriteLine("This is a test application for the ThermalPrinter project.");
+        Console.WriteLine("This is a test application for the CardPrinter project.");
         Console.WriteLine("Press any of the following keys:");
         Console.WriteLine("  R: Get random card");
         Console.WriteLine("  S: Search for a card name");
