@@ -1,4 +1,4 @@
-﻿namespace CardPinter.Database.Models;
+﻿namespace CardPrinter.Database.Models;
 
 public class BaseModel
 {

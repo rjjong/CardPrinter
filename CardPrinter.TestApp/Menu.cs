@@ -1,10 +1,10 @@
-﻿using CardPinter.Core;
-using CardPinter.DLogger;
-using CardPinter.PersistanceLayer.Helpers;
+﻿using CardPrinter.Core;
+using CardPrinter.DLogger;
+using CardPrinter.PersistanceLayer;
 using NLog;
 using SixLabors.ImageSharp;
 
-namespace CardPinter.TestApp;
+namespace CardPrinter.TestApp;
 
 public class Menu
 {

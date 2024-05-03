@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CardPinter.Scryfall.Api.Models
+namespace CardPrinter.Scryfall.Api.Models
 {
     public enum ApiActionType
     {

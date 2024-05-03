@@ -1,5 +1,5 @@
-﻿using CardPinter.Database.Models;
-using CardPinter.DLogger;
+﻿using CardPrinter.Database.Models;
+using CardPrinter.DLogger;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using NLog;

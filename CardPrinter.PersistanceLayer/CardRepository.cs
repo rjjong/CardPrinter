@@ -1,5 +1,5 @@
-﻿using CardPinter.Database;
-using CardPinter.Database.Models;
+﻿using CardPrinter.Database;
+using CardPrinter.Database.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace CardPrinter.PersistanceLayer

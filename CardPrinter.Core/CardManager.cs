@@ -1,6 +1,5 @@
-﻿using CardPinter.Database.Models;
-using CardPinter.DLogger;
-using CardPinter.PersistanceLayer.Helpers;
+﻿using CardPrinter.Database.Models;
+using CardPrinter.DLogger;
 using CardPrinter.PersistanceLayer;
 using NLog;
 using SixLabors.ImageSharp;
@@ -9,7 +8,7 @@ using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 using System.Text.RegularExpressions;
 
-namespace CardPinter.Core
+namespace CardPrinter.Core
 {
     public static class CardManager
     {

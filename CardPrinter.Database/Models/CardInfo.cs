@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace CardPinter.Database.Models;
+namespace CardPrinter.Database.Models;
 
 [Table(nameof(CardInfo))]
 public class CardInfo : BaseModel

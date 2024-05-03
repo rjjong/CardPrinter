@@ -1,6 +1,6 @@
 ﻿using NLog;
 
-namespace CardPinter.DLogger;
+namespace CardPrinter.DLogger;
 
 static public class Log
 {

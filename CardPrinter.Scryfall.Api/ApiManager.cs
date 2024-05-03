@@ -1,9 +1,9 @@
-﻿using CardPinter.DLogger;
-using CardPinter.Scryfall.Api.Models;
+﻿using CardPrinter.DLogger;
+using CardPrinter.Scryfall.Api.Models;
 using NLog;
 using System.Text.Json;
 
-namespace CardPinter.Scryfall.Api
+namespace CardPrinter.Scryfall.Api
 {
     public class ApiManager
     {

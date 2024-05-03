@@ -1,10 +1,10 @@
-﻿using CardPinter.Database.Models;
+﻿using CardPrinter.Database.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Win32.SafeHandles;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-namespace CardPinter.Database;
+namespace CardPrinter.Database;
 
 public class LocalRepositoryBase : IDisposable
 {
