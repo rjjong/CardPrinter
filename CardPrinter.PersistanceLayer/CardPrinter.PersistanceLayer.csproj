@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CardPrinter.Database\CardPinter.Database.csproj" />
+    <ProjectReference Include="..\CardPrinter.Database\CardPrinter.Database.csproj" />
   </ItemGroup>
 
 </Project>

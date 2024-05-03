@@ -8,17 +8,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPinter.Database", "CardPrinter.Database\CardPinter.Database.csproj", "{C2AC0CBA-9353-47F6-B5FC-9A24EE4D0036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPrinter.Database", "CardPrinter.Database\CardPrinter.Database.csproj", "{C2AC0CBA-9353-47F6-B5FC-9A24EE4D0036}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPinter.Core", "CardPrinter.Core\CardPinter.Core.csproj", "{7CBCC3FA-F381-491E-9E34-CD02656C6BB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPrinter.Core", "CardPrinter.Core\CardPrinter.Core.csproj", "{7CBCC3FA-F381-491E-9E34-CD02656C6BB2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPinter.PersistanceLayer", "CardPrinter.PersistanceLayer\CardPinter.PersistanceLayer.csproj", "{C5D23A23-9C1B-4428-B479-0F52C3FC5A7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPrinter.PersistanceLayer", "CardPrinter.PersistanceLayer\CardPrinter.PersistanceLayer.csproj", "{C5D23A23-9C1B-4428-B479-0F52C3FC5A7D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPinter.DLogger", "CardPrinter.DLogger\CardPinter.DLogger.csproj", "{4E460BA0-9C0C-4720-8EF7-2DC564FDD800}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPrinter.DLogger", "CardPrinter.DLogger\CardPrinter.DLogger.csproj", "{4E460BA0-9C0C-4720-8EF7-2DC564FDD800}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPinter.Scryfall.Api", "CardPrinter.Scryfall.Api\CardPinter.Scryfall.Api.csproj", "{700F4C0A-3BDE-4F98-A739-40F95611B997}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPrinter.Scryfall.Api", "CardPrinter.Scryfall.Api\CardPrinter.Scryfall.Api.csproj", "{700F4C0A-3BDE-4F98-A739-40F95611B997}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPinter.TestApp", "CardPrinter.TestApp\CardPinter.TestApp.csproj", "{112B4FAD-DDE9-4E86-A124-2DE3C404AE3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPrinter.TestApp", "CardPrinter.TestApp\CardPrinter.TestApp.csproj", "{112B4FAD-DDE9-4E86-A124-2DE3C404AE3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

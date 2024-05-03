@@ -11,9 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CardPrinter.Database\CardPinter.Database.csproj" />
-    <ProjectReference Include="..\CardPrinter.DLogger\CardPinter.DLogger.csproj" />
-    <ProjectReference Include="..\CardPrinter.PersistanceLayer\CardPinter.PersistanceLayer.csproj" />
+    <ProjectReference Include="..\CardPrinter.Database\CardPrinter.Database.csproj" />
+    <ProjectReference Include="..\CardPrinter.DLogger\CardPrinter.DLogger.csproj" />
+    <ProjectReference Include="..\CardPrinter.PersistanceLayer\CardPrinter.PersistanceLayer.csproj" />
   </ItemGroup>
 
 </Project>
