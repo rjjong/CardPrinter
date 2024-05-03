@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F3B3995-F0CE-47A8-896E-CD3BD3D87A9E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPinter.Database", "CardPrinter.Database\CardPinter.Database.csproj", "{C2AC0CBA-9353-47F6-B5FC-9A24EE4D0036}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPinter.Core", "CardPrinter.Core\CardPinter.Core.csproj", "{7CBCC3FA-F381-491E-9E34-CD02656C6BB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPinter.PersistanceLayer", "CardPrinter.PersistanceLayer\CardPinter.PersistanceLayer.csproj", "{C5D23A23-9C1B-4428-B479-0F52C3FC5A7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPinter.DLogger", "CardPrinter.DLogger\CardPinter.DLogger.csproj", "{4E460BA0-9C0C-4720-8EF7-2DC564FDD800}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPinter.Scryfall.Api", "CardPrinter.Scryfall.Api\CardPinter.Scryfall.Api.csproj", "{700F4C0A-3BDE-4F98-A739-40F95611B997}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardPinter.TestApp", "CardPrinter.TestApp\CardPinter.TestApp.csproj", "{112B4FAD-DDE9-4E86-A124-2DE3C404AE3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2AC0CBA-9353-47F6-B5FC-9A24EE4D0036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AC0CBA-9353-47F6-B5FC-9A24EE4D0036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AC0CBA-9353-47F6-B5FC-9A24EE4D0036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AC0CBA-9353-47F6-B5FC-9A24EE4D0036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CBCC3FA-F381-491E-9E34-CD02656C6BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBCC3FA-F381-491E-9E34-CD02656C6BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBCC3FA-F381-491E-9E34-CD02656C6BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBCC3FA-F381-491E-9E34-CD02656C6BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D23A23-9C1B-4428-B479-0F52C3FC5A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D23A23-9C1B-4428-B479-0F52C3FC5A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D23A23-9C1B-4428-B479-0F52C3FC5A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D23A23-9C1B-4428-B479-0F52C3FC5A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E460BA0-9C0C-4720-8EF7-2DC564FDD800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E460BA0-9C0C-4720-8EF7-2DC564FDD800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E460BA0-9C0C-4720-8EF7-2DC564FDD800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E460BA0-9C0C-4720-8EF7-2DC564FDD800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700F4C0A-3BDE-4F98-A739-40F95611B997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700F4C0A-3BDE-4F98-A739-40F95611B997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700F4C0A-3BDE-4F98-A739-40F95611B997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700F4C0A-3BDE-4F98-A739-40F95611B997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{112B4FAD-DDE9-4E86-A124-2DE3C404AE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112B4FAD-DDE9-4E86-A124-2DE3C404AE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112B4FAD-DDE9-4E86-A124-2DE3C404AE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112B4FAD-DDE9-4E86-A124-2DE3C404AE3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CBC1B66-A0FA-4614-B4A0-A6BBDA0003B4}
+	EndGlobalSection
+EndGlobal
